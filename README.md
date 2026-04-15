@@ -66,11 +66,13 @@ This project is a showcase of **Vibe Coding** — intent-driven development usin
 
 ## 🌐 Live Demo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/japan-pharma-bd-tool)
+🔗 **[https://japan-pharma-bd-tool.vercel.app](https://japan-pharma-bd-tool.vercel.app)**
 
-> Replace `YOUR_USERNAME` with your GitHub handle after forking.
-> フォーク後、`YOUR_USERNAME` を自分のGitHubユーザー名に置き換えてください。
-> Fork 后请将 `YOUR_USERNAME` 替换为你的 GitHub 用户名。
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Almitra-0206/japan-pharma-bd-tool)
+
+> Fork this repo and deploy your own version in 3 minutes.
+> このリポジトリをフォークして3分で自分のバージョンをデプロイ。
+> Fork 此仓库，3分钟内部署你自己的版本。
 
 ---
 
