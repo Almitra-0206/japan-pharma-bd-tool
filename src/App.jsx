@@ -251,9 +251,8 @@ export default function App() {
   }, [brandPatients, annualCost, nhiCut, rampYears, shinYaku, isOrphan, protectRounds,
       loeEnabled, loeYear, loeDepth, loeSpeed]);
 
-  const peakRevenue  = Math.max(...forecast.map(f => f.revenue));
-  const peakYear     = forecast.find(f => f.revenue === peakRevenue)?.year;
-  const tenYearTotal = forecast.slice(0, 10).reduce((s, f) => s + f.revenue, 0);
+  const peakRevenue      = Math.max(...forecast.map(f => f.revenue));
+  const peakYear         = forecast.find(f => f.revenue === peakRevenue)?.year;
   const fifteenYearTotal = forecast.reduce((s, f) => s + f.revenue, 0);
 
   // LOE revenue impact: compare with/without LOE for same period
@@ -273,7 +272,6 @@ export default function App() {
 
   // Active price line color
   const activeLine = isOrphan ? PURPLE : shinYaku ? GREEN : ACCENT;
-  const activeLineName = isOrphan ? "孤児薬+新薬創出加算" : shinYaku ? "新薬創出加算適用" : "NHI調整後（標準）";
 
   return (
     <div style={{ background: BG, minHeight: "100vh", fontFamily: "'Noto Sans JP', 'DM Sans', sans-serif", color: TEXT, display: "flex", flexDirection: "column" }}>
